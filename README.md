@@ -2,8 +2,6 @@
 
 Postaway is a social media platform API built using Express.js and MongoDB, designed to enable users to perform various social networking activities such as registration, authentication, post creation, commenting, liking, managing friendships, and more. The API supports secure user authentication with JWT, file uploads, and OTP-based password reset for enhanced security. It follows a scalable and modular architecture, making it easy to maintain and extend.
 
-## Fork the Collection 
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/36661483-63b491c2-df5b-4f48-8a15-e2a535337bcc?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D36661483-63b491c2-df5b-4f48-8a15-e2a535337bcc%26entityType%3Dcollection%26workspaceId%3D2b5d1511-d0b6-4a63-8861-6ddbb36baaa9)
 
 ## Features
 
@@ -24,7 +22,7 @@ Postaway is a social media platform API built using Express.js and MongoDB, desi
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/mayurmadankar/Postaway.git
+   git clone https://github.com/thakurshardul/Postaway.git
    cd postaway-api
    ```
 
@@ -98,9 +96,9 @@ Feel free to customize this README file according to your project's specific det
 
 ## Authors
 
-- [Mayur Madankar](https://github.com/mayurmadankar)
+- [Shardul vikram singh](https://github.com/thakurshardul)
 
 ## Contact me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mayur-madankar/) [![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black)](https://leetcode.com/u/mayurmadankar/) [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:madankarmayur5@gmail.com)
-[![Naukari](https://img.shields.io/badge/Naukri.com-0A66C2?style=for-the-badge&logo=Naukri.com&logoColor=white)](https://www.naukri.com/mnjuser/profile?id=&altresid)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shardul-vikram singh/) [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:thakurshardul1@gmail.com)
+
