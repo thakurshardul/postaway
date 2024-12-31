@@ -2,8 +2,7 @@ import UserRepository from "./user.repository.js";
 import jwt from "jsonwebtoken";
 import bcrypt from "bcrypt";
 
-// Assuming you have a list to store invalidated tokens
-export const blackListedToken = new Set();
+
 
 export default class userController {
   constructor() {
@@ -54,20 +53,18 @@ export default class userController {
     if (!user) {
       res.status(400).send({ success: false, message: "Email not exits!" });
     }
+    //console.log("user :", user);
     // 2. Compare  password with hashed password.
     const result = await bcrypt.compare(password, user.password);
     if (result) {
-      const userResult = await this.userRepository.signIn(
-        emailId,
-        user.password
-      );
       const token = jwt.sign(
-        { userId: userResult._id, emailId: userResult.emailId },
+        { userId: user._id, emailId: user.emailId },
         "vikram",
         {
           expiresIn: "6h"
         }
       );
+      const tokenUpdatedStatus=await this.userRepository.signIn(emailId,token);
       res.status(200).send({
         success: true,
         message: "User has been logged In!",
@@ -83,15 +80,20 @@ export default class userController {
   //logout
   async signOut(req, res, next) {
     try {
-      const token = req.headers["authorization"];
+       const token = req.headers["authorization"];
+      const emailId=req.emailId;
       if (!token) {
         throw new ApplicationError("Unauthorized User!", 401);
       }
-      // Add the token to the blacklist
-      blackListedToken.add(token);
-      res
+      const result=await this.userRepository.signOut(emailId,token);
+      if(result){
+        res
         .status(200)
         .send({ success: true, message: "User has been logout successfully!" });
+      }else{
+        res.status(400).send({success:false,message:"token is invalid!"});
+      }
+      
     } catch (error) {
       next(error);
     }
@@ -117,9 +119,9 @@ export default class userController {
   async getDetailByUser(req, res, next) {
     try {
       const Id = req.userId;
-      console.log(Id);
+      
       const userId = req.params.id;
-      console.log(userId);
+      
       const user = await this.userRepository.getUserDetail(Id, userId);
       if (user)
         res.status(200).send({

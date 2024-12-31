@@ -1,9 +1,10 @@
 import express from "express";
 import PostController from "./post.controller.js";
 import { upload } from "../../middleware/fileUpload.middleware.js";
-
+import jwtAuth from "../../middleware/jwt.middleware.js"
+import ApplicationError from "../../middleware/applicationError.middleware.js";
 const postRouter = express.Router();
-
+import multer from "multer";
 const postcontroller = new PostController();
 
 postRouter.post("/", upload.single("image"), (req, res, next) => {
@@ -18,7 +19,7 @@ postRouter.get("/all", (req, res, next) =>
 postRouter.get("/:postId", (req, res, next) =>
   postcontroller.getPostById(req, res, next)
 );
-postRouter.put("/:postId", upload.single("image"), (req, res, next) =>
+postRouter.put("/:postId", upload.single("image"),(req, res, next) => 
   postcontroller.updatePost(req, res, next)
 );
 postRouter.delete("/:postId", (req, res, next) =>

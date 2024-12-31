@@ -96,8 +96,18 @@ export default class PostController {
       const postId = req.params.postId;
       const userId = req.userId;
       const { caption, description } = req.body;
-      const image = req.file.filename;
-
+      
+      const image="";
+      if(req.file){
+        image=req.file.filename
+      }
+      if(!(image && caption && description)){
+        return res.status(400).send({
+          success: false,
+          message: "wrong inputs recieved",
+          data: []
+        })
+      }
       const updatePost = await this.postRepository.update(
         caption,
         description,
@@ -127,7 +137,7 @@ export default class PostController {
       const userId = req.userId;
       const deletedPost = await this.postRepository.delete(postId, userId);
       if (deletedPost.deletedCount > 0)
-        res.status(201).send({
+        res.status(200).send({
           success: true,
           message: "Post has been deleted successfully!"
         });

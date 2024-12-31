@@ -7,8 +7,8 @@ export default class ApplicationError extends Error {
 }
 
 export const errorHandlerMiddleware = (err, req, res, next) => {
-  console.log(err);
+  //console.log(err);
   if (err instanceof ApplicationError) {
-    return res.status(err.code).send({ success: false, message: err.message });
+    return res.status(err.statusCodecode).send({ success: false, message: err.message });
   }
 };

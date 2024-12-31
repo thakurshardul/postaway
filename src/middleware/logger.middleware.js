@@ -22,8 +22,8 @@ const logger = winston.createLogger({
 // Logger middleware function
 export const loggerMiddleware = (req, res, next) => {
   // Construct the log message
-  const logData = `Request URL: ${req.url} | Request Body: ${JSON.stringify(
-    req.body
+  const logData = `Request Method: ${req.method} | Request URL: ${req.url} | Request Body: ${JSON.stringify(
+     req.body
   )}`;
 
   // Log the request information

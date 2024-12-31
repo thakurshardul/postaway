@@ -1,4 +1,4 @@
-import multer from "multer";
+import multer, { MulterError } from "multer";
 // import path from "path";
 
 // Multer storage configuration
@@ -16,13 +16,13 @@ const storage = multer.diskStorage({
 });
 
 // File filter function to accept only image files
-// const fileFilter = (req, file, cb) => {
-//   if (file.mimetype.startsWith("image/")) {
-//     cb(null, true); // Accept the file
-//   } else {
-//     cb(new Error("Only images are allowed"), false); // Reject the file
-//   }
-// };
+const fileFilter = (req, file, cb) => {
+  if (file.mimetype.startsWith("image/")) {
+    cb(null, true); // Accept the file
+  } else {
+    cb(new Error("Only images are allowed"), false); // Reject the file
+  }
+};
 
 // Multer upload configuration
 export const upload = multer({
@@ -30,7 +30,7 @@ export const upload = multer({
   limits: {
     fileSize: 1024 * 1024 * 5 // Limit file size to 5 MB
   },
-  // fileFilter: fileFilter
+  fileFilter: fileFilter
 });
 
 // Middleware function to handle file uploads

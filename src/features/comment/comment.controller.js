@@ -8,6 +8,7 @@ export default class CommentController {
     try {
       const postId = req.params.postId;
       const { comment } = req.body;
+      //console.log(req.body)
       const userId = req.userId;
       const createdComment = await this.commentRepository.add(
         postId,

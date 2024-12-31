@@ -2,6 +2,7 @@ import { CommentModel } from "./comment.schema.js";
 import { PostModel } from "../post/post.schema.js";
 import ApplicationError from "../../middleware/applicationError.middleware.js";
 import Detail from "../detais/detail.schema.js";
+import { UserModel } from "../user/user.schema.js";
 
 export default class CommentRepository {
   async add(postId, userId, comment) {
@@ -22,10 +23,11 @@ export default class CommentRepository {
         commentPost.comments.push(newComment);
         createComment = await commentPost.save();
       }
+      console.log(createComment)
       if (createComment) {
         await PostModel.updateOne(
           { _id: postId },
-          { $set: { commentId: createComment._id } }
+          { $push: { comments: createComment.comments[createComment.comments.length-1]._id } }
         );
 
         // Update the Detail model to track this user's comment
@@ -88,11 +90,12 @@ export default class CommentRepository {
   }
   async delete(userId, commentId) {
     try {
+      const comment=await CommentModel.findOne({"comments._id":commentId,"comments.userId": userId});
       const deleteComment = await CommentModel.updateOne(
         { "comments._id": commentId, "comments.userId": userId },
         { $pull: { comments: { _id: commentId, userId: userId } } }
       );
-
+      const deleteCommentFromPostsDB=await PostModel.updateOne({})
       if (deleteComment.matchedCount === 0) {
         throw new ApplicationError(
           "Comment not found or user is not authorized to delete this comment.",

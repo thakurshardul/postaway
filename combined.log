@@ -70,3 +70,154 @@
 2024-12-29T11:13:05.471Z info: Request URL: /api/users/logout | Request Body: {}
 2024-12-29T11:13:18.896Z info: Request URL: /api/users/logout | Request Body: {}
 2024-12-29T11:13:44.044Z info: Request URL: /api/users/logout | Request Body: {}
+2024-12-29T11:31:15.596Z info: Request URL: /api/users/signin | Request Body: {"emailId":"thakurshardul1@gmail.com","password":"123456"}
+2024-12-29T11:39:55.511Z info: Request URL: /api/users/sigup | Request Body: {}
+2024-12-29T11:40:05.622Z info: Request URL: /api/users/signup | Request Body: {}
+2024-12-29T11:40:45.152Z info: Request URL: /api/users/signin | Request Body: {"emailId":"thakurshardul1@gmail.com","password":"123456"}
+2024-12-29T11:41:17.206Z info: Request URL: /api/users/signin | Request Body: {"emailId":"thakurshardul1@gmail.com","password":"123456"}
+2024-12-29T11:42:49.273Z info: Request URL: /api/users/signin | Request Body: {"emailId":"thakurshardul1@gmail.com","password":"123456"}
+2024-12-29T11:45:01.999Z info: Request URL: /api/users/signin | Request Body: {"emailId":"thakurshardul1@gmail.com","password":"123456"}
+2024-12-29T11:45:18.042Z info: Request URL: /api/users/signin | Request Body: {"emailId":"thakurshardul1@gmail.com","password":"123456"}
+2024-12-29T11:46:16.717Z info: Request URL: /api/users/signin | Request Body: {"emailId":"thakurshardul1@gmail.com","password":"123456"}
+2024-12-29T11:46:54.287Z info: Request URL: /api/users/signin | Request Body: {"emailId":"thakurshardul1@gmail.com","password":"123456"}
+2024-12-29T11:48:17.564Z info: Request URL: /api/users/signin | Request Body: {"emailId":"thakurshardul1@gmail.com","password":"123456"}
+2024-12-29T11:48:52.759Z info: Request URL: /api/users/signin | Request Body: {"emailId":"thakurshardul1@gmail.com","password":"123456"}
+2024-12-29T11:58:23.601Z info: Request URL: /api/users/signin | Request Body: {"emailId":"thakurshardul1@gmail.com","password":"123456"}
+2024-12-29T11:59:01.033Z info: Request URL: /api/users/logout | Request Body: {}
+2024-12-29T11:59:16.856Z info: Request URL: /api/users/logout | Request Body: {}
+2024-12-29T11:59:20.354Z info: Request URL: /api/users/logout | Request Body: {}
+2024-12-29T12:03:08.524Z info: Request URL: /api/users/logout | Request Body: {}
+2024-12-29T12:03:54.251Z info: Request URL: /api/users/logout | Request Body: {}
+2024-12-29T12:06:10.503Z info: Request URL: /api/users/logout | Request Body: {}
+2024-12-29T12:06:34.818Z info: Request URL: /api/users/logout | Request Body: {}
+2024-12-29T12:13:48.593Z info: Request URL: /api/users/logout | Request Body: {}
+2024-12-29T12:13:57.439Z info: Request URL: /api/users/signin | Request Body: {"emailId":"thakurshardul1@gmail.com","password":"123456"}
+2024-12-29T12:14:22.362Z info: Request URL: /api/users/logout | Request Body: {}
+2024-12-29T12:14:25.117Z info: Request URL: /api/users/logout | Request Body: {}
+2024-12-29T12:17:39.749Z info: Request URL: /api/users/logout | Request Body: {}
+2024-12-29T12:18:12.677Z info: Request URL: /api/users/logout | Request Body: {}
+2024-12-29T12:18:58.061Z info: Request URL: /api/users/logout | Request Body: {}
+2024-12-29T12:21:11.112Z info: Request URL: /api/users/signin | Request Body: {"emailId":"thakurshardul1@gmail.com","password":"123456"}
+2024-12-29T12:21:36.234Z info: Request URL: /api/users/logout | Request Body: {}
+2024-12-29T12:23:55.389Z info: Request URL: /api/users/logout | Request Body: {}
+2024-12-29T12:24:48.964Z info: Request URL: /api/users/logout | Request Body: {}
+2024-12-29T12:25:28.966Z info: Request URL: /api/users/logout | Request Body: {}
+2024-12-29T12:33:23.034Z info: Request URL: /api/users/logout | Request Body: {}
+2024-12-29T12:33:47.629Z info: Request URL: /api/users/logout | Request Body: {}
+2024-12-29T12:33:58.316Z info: Request URL: /api/users/logout | Request Body: {}
+2024-12-29T12:34:08.867Z info: Request URL: /api/users/signin | Request Body: {"emailId":"thakurshardul1@gmail.com","password":"123456"}
+2024-12-29T12:34:52.280Z info: Request URL: /api/users/logout | Request Body: {}
+2024-12-29T12:35:04.950Z info: Request URL: /api/users/logout | Request Body: {}
+2024-12-29T12:35:34.935Z info: Request URL: /api/users/logout | Request Body: {}
+2024-12-29T12:36:32.614Z info: Request URL: /api/users/logout | Request Body: {}
+2024-12-29T12:37:20.713Z info: Request URL: /api/users/signin | Request Body: {"emailId":"thakurshardul1@gmail.com","password":"123456"}
+2024-12-29T12:37:48.930Z info: Request URL: /api/users/logout | Request Body: {}
+2024-12-29T12:40:09.776Z info: Request URL: /api/users/get-all-details | Request Body: {}
+2024-12-29T12:52:08.332Z info: Request URL: /api/users/get-all-details | Request Body: {}
+2024-12-29T12:52:17.690Z info: Request URL: /api/users/signin | Request Body: {"emailId":"thakurshardul1@gmail.com","password":"123456"}
+2024-12-29T12:52:36.486Z info: Request URL: /api/users/get-all-details | Request Body: {}
+2024-12-29T12:52:49.210Z info: Request URL: /api/users/get-all-details | Request Body: {}
+2024-12-29T12:54:00.864Z info: Request URL: /api/users/get-all-details | Request Body: {}
+2024-12-29T12:54:17.289Z info: Request URL: /api/users/logout | Request Body: {}
+2024-12-29T12:54:37.554Z info: Request URL: /api/users/get-all-details | Request Body: {}
+2024-12-29T12:59:39.695Z info: Request URL: /api/users/get-all-details | Request Body: {}
+2024-12-29T13:03:58.514Z info: Request URL: /api/users/signup | Request Body: {}
+2024-12-29T13:04:29.239Z info: Request URL: /api/users/signin | Request Body: {"emailId":"prashant@gmail.com","password":"123456"}
+2024-12-29T13:04:46.114Z info: Request URL: /api/users/get-all-details | Request Body: {}
+2024-12-29T13:05:42.409Z info: Request URL: /api/users/get-all-details | Request Body: {}
+2024-12-29T13:06:24.096Z info: Request URL: /api/users/get-all-details | Request Body: {}
+2024-12-29T13:07:15.164Z info: Request URL: /api/users/signin | Request Body: {"emailId":"thakurshardul1@gmail.com","password":"123456"}
+2024-12-29T13:08:22.643Z info: Request URL: /api/users/logout | Request Body: {}
+2024-12-29T13:08:30.127Z info: Request URL: /api/users/logout | Request Body: {}
+2024-12-29T13:09:21.199Z info: Request URL: /api/users/get-all-details | Request Body: {}
+2024-12-29T18:35:56.486Z info: Request URL: /api/users/logout | Request Body: {}
+2024-12-29T18:38:20.701Z info: Request URL: /api/users/signin | Request Body: {"emailId":"thakurshardul1@gmail.com","password":"123456"}
+2024-12-29T18:40:04.898Z info: Request URL: /api/users/resetPassword | Request Body: {"newPassword":"1234567"}
+2024-12-29T19:37:15.599Z info: Request URL: /api/users/get-details/:677148bff79a774e29438126 | Request Body: {}
+2024-12-29T19:37:32.906Z info: Request URL: /api/users/get-details/:677148bff79a774e29438126 | Request Body: {}
+2024-12-29T19:39:03.985Z info: Request URL: /api/users/get-details/677148bff79a774e29438126 | Request Body: {}
+2024-12-29T19:41:08.129Z info: Request URL: /api/users/get-details/677135168a902c5d907ded18 | Request Body: {}
+2024-12-31T08:34:09.368Z info: Request URL: /api/users/signin | Request Body: {"emailId":"thakurshardul1@gmail.com","password":"123456"}
+2024-12-31T08:37:57.550Z info: Request URL: /api/users/update-details/677135168a902c5d907ded18 | Request Body: {}
+2024-12-31T08:38:32.556Z info: Request URL: /api/users/get-all-details | Request Body: {}
+2024-12-31T08:43:55.716Z info: Request URL: /api/posts/ | Request Body: {}
+2024-12-31T08:50:50.856Z info: Request URL: /api/posts/ | Request Body: {}
+2024-12-31T08:51:19.360Z info: Request URL: /api/posts/ | Request Body: {}
+2024-12-31T08:51:36.130Z info: Request URL: /api/posts/ | Request Body: {}
+2024-12-31T08:53:06.406Z info: Request URL: /api/posts/all | Request Body: {}
+2024-12-31T08:54:11.660Z info: Request URL: /api/posts/6773aecb0ffe6c618e5c5c58 | Request Body: {}
+2024-12-31T08:56:39.297Z info: Request URL: /api/posts/6773aecb0ffe6c618e5c5c58 | Request Body: {}
+2024-12-31T08:59:34.195Z info: Request URL: /api/posts/6773aecb0ffe6c618e5c5c58 | Request Body: {}
+2024-12-31T08:59:55.789Z info: Request URL: /api/posts/6773aecb0ffe6c618e5c5c58 | Request Body: {}
+2024-12-31T09:03:34.479Z info: Request URL: /api/posts/6773aecb0ffe6c618e5c5c58 | Request Body: {}
+2024-12-31T09:10:24.702Z info: Request URL: /api/posts/6773aecb0ffe6c618e5c5c58 | Request Body: {}
+2024-12-31T09:10:41.224Z info: Request URL: /api/posts/6773aecb0ffe6c618e5c5c58 | Request Body: {}
+2024-12-31T09:12:40.947Z info: Request URL: /api/posts/6773aecb0ffe6c618e5c5c58 | Request Body: {}
+2024-12-31T09:16:56.147Z info: Request Method: PUT | Request URL: /api/posts/6773aecb0ffe6c618e5c5c58 | Request Body: {}
+2024-12-31T09:19:12.040Z info: Request Method: PUT | Request URL: /api/posts/6773aecb0ffe6c618e5c5c58 | Request Body: {}
+2024-12-31T09:24:03.359Z info: Request Method: PUT | Request URL: /api/posts/6773aecb0ffe6c618e5c5c58 | Request Body: {}
+2024-12-31T09:24:45.210Z info: Request Method: PUT | Request URL: /api/posts/6773aecb0ffe6c618e5c5c58 | Request Body: {}
+2024-12-31T09:25:47.917Z info: Request Method: PUT | Request URL: /api/posts/6773aecb0ffe6c618e5c5c58 | Request Body: {}
+2024-12-31T09:26:22.245Z info: Request Method: PUT | Request URL: /api/posts/6773aecb0ffe6c618e5c5c58 | Request Body: {}
+2024-12-31T09:36:14.145Z info: Request Method: PUT | Request URL: /api/posts/6773aecb0ffe6c618e5c5c58 | Request Body: {}
+2024-12-31T09:36:39.498Z info: Request Method: POST | Request URL: /api/posts/ | Request Body: {}
+2024-12-31T09:37:16.723Z info: Request Method: PUT | Request URL: /api/posts/6773bb2760e16f7aeaad7feb | Request Body: {}
+2024-12-31T09:39:46.395Z info: Request Method: PUT | Request URL: /api/posts/6773bb2760e16f7aeaad7feb | Request Body: {}
+2024-12-31T09:40:45.194Z info: Request Method: PUT | Request URL: /api/posts/6773bb2760e16f7aeaad7feb | Request Body: {}
+2024-12-31T09:41:12.190Z info: Request Method: PUT | Request URL: /api/posts/6773bb2760e16f7aeaad7feb | Request Body: {}
+2024-12-31T09:41:55.042Z info: Request Method: PUT | Request URL: /api/posts/6773bb2760e16f7aeaad7feb | Request Body: "[object Object]undefined"
+2024-12-31T10:03:02.017Z info: Request Method: POST | Request URL: /api/users/signin | Request Body: {"emailId":"thakurshardul1@gmail.com","password":"123456"}
+2024-12-31T10:03:44.446Z info: Request Method: POST | Request URL: /api/posts/ | Request Body: {}
+2024-12-31T10:04:21.663Z info: Request Method: PUT | Request URL: /api/posts/6773bb2760e16f7aeaad7feb | Request Body: {}
+2024-12-31T10:05:25.440Z info: Request Method: PUT | Request URL: /api/posts/6773bb2760e16f7aeaad7feb | Request Body: {}
+2024-12-31T10:05:49.315Z info: Request Method: PUT | Request URL: /api/posts/6773bb2760e16f7aeaad7feb | Request Body: {}
+2024-12-31T10:06:34.280Z info: Request Method: PUT | Request URL: /api/posts/6773bb2760e16f7aeaad7feb | Request Body: {}
+2024-12-31T10:07:10.935Z info: Request Method: PUT | Request URL: /api/posts/6773bb2760e16f7aeaad7feb | Request Body: {}
+2024-12-31T10:08:24.419Z info: Request Method: PUT | Request URL: /api/posts/6773bb2760e16f7aeaad7feb | Request Body: {}
+2024-12-31T10:09:26.450Z info: Request Method: PUT | Request URL: /api/posts/6773bb2760e16f7aeaad7feb | Request Body: {}
+2024-12-31T10:10:12.030Z info: Request Method: PUT | Request URL: /api/posts/6773bb2760e16f7aeaad7feb | Request Body: {}
+2024-12-31T10:12:05.748Z info: Request Method: PUT | Request URL: /api/posts/6773bb2760e16f7aeaad7feb | Request Body: {}
+2024-12-31T10:13:29.680Z info: Request Method: PUT | Request URL: /api/posts/6773bb2760e16f7aeaad7feb | Request Body: {}
+2024-12-31T10:14:39.199Z info: Request Method: PUT | Request URL: /api/posts/6773bb2760e16f7aeaad7feb | Request Body: {}
+2024-12-31T10:18:33.605Z info: Request Method: PUT | Request URL: /api/posts/6773bb2760e16f7aeaad7feb | Request Body: {}
+2024-12-31T10:19:50.198Z info: Request Method: PUT | Request URL: /api/posts/6773bb2760e16f7aeaad7feb | Request Body: {}
+2024-12-31T10:20:24.564Z info: Request Method: PUT | Request URL: /api/posts/6773bb2760e16f7aeaad7feb | Request Body: {}
+2024-12-31T10:20:56.748Z info: Request Method: PUT | Request URL: /api/posts/6773bb2760e16f7aeaad7feb | Request Body: {}
+2024-12-31T10:21:19.560Z info: Request Method: PUT | Request URL: /api/posts/6773bb2760e16f7aeaad7feb | Request Body: {}
+2024-12-31T10:21:41.616Z info: Request Method: PUT | Request URL: /api/posts/6773bb2760e16f7aeaad7feb | Request Body: {}
+2024-12-31T10:22:17.378Z info: Request Method: PUT | Request URL: /api/posts/6773bb2760e16f7aeaad7feb | Request Body: {}
+2024-12-31T10:22:57.653Z info: Request Method: PUT | Request URL: /api/posts/6773bb2760e16f7aeaad7feb | Request Body: {}
+2024-12-31T10:23:28.502Z info: Request Method: PUT | Request URL: /api/posts/6773bb2760e16f7aeaad7feb | Request Body: {}
+2024-12-31T10:24:07.093Z info: Request Method: PUT | Request URL: /api/posts/6773bb2760e16f7aeaad7feb | Request Body: {}
+2024-12-31T10:24:42.827Z info: Request Method: PUT | Request URL: /api/posts/6773bb2760e16f7aeaad7feb | Request Body: {}
+2024-12-31T10:25:05.474Z info: Request Method: PUT | Request URL: /api/posts/6773bb2760e16f7aeaad7feb | Request Body: {}
+2024-12-31T10:27:56.326Z info: Request Method: PUT | Request URL: /api/posts/6773bb2760e16f7aeaad7feb | Request Body: {}
+2024-12-31T10:28:55.471Z info: Request Method: PUT | Request URL: /api/posts/6773bb2760e16f7aeaad7feb | Request Body: {}
+2024-12-31T10:30:27.468Z info: Request Method: PUT | Request URL: /api/posts/6773bb2760e16f7aeaad7feb | Request Body: {}
+2024-12-31T10:33:45.735Z info: Request Method: POST | Request URL: /api/users/signin | Request Body: {"emailId":"thakurshardul1@gmail.com","password":"123456"}
+2024-12-31T10:38:43.197Z info: Request Method: GET | Request URL: /api/posts/all | Request Body: {}
+2024-12-31T10:39:41.836Z info: Request Method: POST | Request URL: /api/comments/6773bb2760e16f7aeaad7feb | Request Body: {}
+2024-12-31T10:40:17.157Z info: Request Method: POST | Request URL: /api/comments/6773bb2760e16f7aeaad7feb | Request Body: {}
+2024-12-31T10:45:03.000Z info: Request Method: POST | Request URL: /api/comments/6773bb2760e16f7aeaad7feb | Request Body: {}
+2024-12-31T10:46:42.829Z info: Request Method: POST | Request URL: /api/comments/6773bb2760e16f7aeaad7feb | Request Body: {}
+2024-12-31T10:58:17.294Z info: Request Method: POST | Request URL: /api/comments/6773bb2760e16f7aeaad7feb | Request Body: {}
+2024-12-31T11:00:15.304Z info: Request Method: POST | Request URL: /api/comments/6773bb2760e16f7aeaad7feb | Request Body: {}
+2024-12-31T11:02:03.047Z info: Request Method: POST | Request URL: /api/comments/6773bb2760e16f7aeaad7feb | Request Body: {}
+2024-12-31T11:02:38.105Z info: Request Method: POST | Request URL: /api/comments/6773bb2760e16f7aeaad7feb | Request Body: {}
+2024-12-31T11:03:24.593Z info: Request Method: POST | Request URL: /api/comments/6773bb2760e16f7aeaad7feb | Request Body: {"comment":"nice pic"}
+2024-12-31T11:05:30.537Z info: Request Method: POST | Request URL: /api/comments/6773bb2760e16f7aeaad7feb | Request Body: {"comment":"nice pic"}
+2024-12-31T11:08:01.481Z info: Request Method: GET | Request URL: /api/comments/6773bb2760e16f7aeaad7feb | Request Body: {}
+2024-12-31T11:10:00.999Z info: Request Method: PUT | Request URL: /api/comments/6773cffad897dbddbc5a9272 | Request Body: {"comment":"nice picture"}
+2024-12-31T11:14:19.173Z info: Request Method: POST | Request URL: /api/posts/ | Request Body: {}
+2024-12-31T11:15:00.487Z info: Request Method: POST | Request URL: /api/posts/ | Request Body: {}
+2024-12-31T11:16:06.136Z info: Request Method: POST | Request URL: /api/comments/6773d20b270c3d06f98cba29 | Request Body: {"comment":"nice pic"}
+2024-12-31T11:17:15.386Z info: Request Method: POST | Request URL: /api/comments/6773d20b270c3d06f98cba29 | Request Body: {"comment":"nice picture"}
+2024-12-31T11:20:11.944Z info: Request Method: PUT | Request URL: /api/comments/6773d276270c3d06f98cba35 | Request Body: {"newComment":"nice picture"}
+2024-12-31T11:21:45.462Z info: Request Method: DELETE | Request URL: /api/comments/6773d276270c3d06f98cba35 | Request Body: {}
+2024-12-31T11:34:37.846Z info: Request Method: POST | Request URL: /api/comments/6773d20b270c3d06f98cba29 | Request Body: {"comment":"nice dp"}
+2024-12-31T11:38:04.964Z info: Request Method: POST | Request URL: /api/posts/ | Request Body: {}
+2024-12-31T11:38:23.301Z info: Request Method: POST | Request URL: /api/posts/ | Request Body: {}
+2024-12-31T11:39:01.027Z info: Request Method: POST | Request URL: /api/comments/6773d7af9f81b6fa9477d2e3 | Request Body: {"comment":"nice pic"}
+2024-12-31T11:41:09.745Z info: Request Method: POST | Request URL: /api/comments/6773d7af9f81b6fa9477d2e3 | Request Body: {"comment":"nice pic"}
+2024-12-31T11:43:43.496Z info: Request Method: POST | Request URL: /api/comments/6773d7af9f81b6fa9477d2e3 | Request Body: {"comment":"nice pic"}
+2024-12-31T11:45:15.514Z info: Request Method: POST | Request URL: /api/comments/6773d7af9f81b6fa9477d2e3 | Request Body: {"comment":"nice pic"}

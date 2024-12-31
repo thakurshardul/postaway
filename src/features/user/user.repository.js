@@ -13,7 +13,8 @@ export default class UserRepository {
         password,
         gender,
         avatar,
-        follower: []
+        follower: [],
+        activeSessionToken:[],
       });
       const result = await newUser.save();
       return result;
@@ -25,10 +26,45 @@ export default class UserRepository {
       }
     }
   }
-  async signIn(emailId, password) {
+  async signIn(emailId, token) {
     try {
-      return await UserModel.findOne({ emailId, password });
+      console.log(emailId,token)
+      return await UserModel.updateOne({emailId:emailId},{activeSessionToken:token});
+      
     } catch (err) {
+      console.log(err);
+      throw new ApplicationError("Error while signIn", 500);
+    }
+  }
+  async signOut(emailId,token){
+    //check whether token exists or not if not then wrong token else logout
+    try{
+      const user= await UserModel.findOne({emailId:emailId,activeSessionToken:{$in:[token]}})
+      if(user){
+        try{
+          await UserModel.updateOne({emailId:emailId,activeSessionToken:{$in:[token]}},{activeSessionToken:[]});
+          return true;
+        }catch (err) {
+          console.log(err);
+          throw new ApplicationError("Error while checking email in database", 500);
+        }
+      }else{
+        return false;
+      }
+    }catch (err) {
+      console.log(err);
+      throw new ApplicationError("Error while signIn", 500);
+    }
+  }
+  async verifyToken(emailId,token){
+    try{
+      const user= await UserModel.findOne({emailId:emailId,activeSessionToken:{$in:[token]}})
+      if(user){
+        return true;
+      }else{
+        return false;
+      }
+    }catch (err) {
       console.log(err);
       throw new ApplicationError("Error while signIn", 500);
     }
@@ -82,7 +118,7 @@ export default class UserRepository {
   async resetPasswordUser(id, password) {
     try {
       let user = await UserModel.findById({ _id: id }).select(
-        "-email -password"
+        "-emailId -password"
       );
       if (user.otpVerify == "verified") {
         user.otp = undefined;

@@ -34,6 +34,7 @@ userRouter.put(
     usercontroller.updateUserDetail(req, res, next);
   }
 );
+//reset not tested
 userRouter.put("/resetPassword", jwtAuth, (req, res, next) => {
   usercontroller.resetPassword(req, res, next);
 });

@@ -32,6 +32,7 @@ const userSchema = new mongoose.Schema({
       ref: "User"
     }
   ],
+  activeSessionToken:[{type:String}],
   otp: {
     type: String
   },
